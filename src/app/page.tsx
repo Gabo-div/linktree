@@ -5,7 +5,7 @@ import MediaLink from "@/components/MediaLink";
 
 export default function Home() {
   return (
-    <div className="relative p-8 min-h-screen mx-auto max-w-xl flex flex-col items-center justify-center">
+    <div className="relative p-8 mx-auto max-w-xl flex flex-col items-center justify-center full-height">
       <main className="w-full flex flex-col items-center">
         <div className="flex w-full flex-col items-center">
           <Image src="/me.png" alt="Me" width={200} height={200} className="rounded-full " />

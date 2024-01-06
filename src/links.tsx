@@ -2,10 +2,12 @@ import { FaCode, FaGithub, FaLinkedin, FaPaypal, FaFilePdf } from "react-icons/f
 
 export const mediaLinks = [
   {
+    name: "Github",
     href: "https://github.com/gabo-div",
     icon: FaGithub,
   },
   {
+    name: "Linkedin",
     href: "https://www.linkedin.com/in/gabriel-h-valles/",
     icon: FaLinkedin,
   },

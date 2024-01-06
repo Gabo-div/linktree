@@ -15,7 +15,7 @@ export default function Home() {
           <div className="mt-1 text-sm sm:text-base">Desarrollador Web Full-Stack</div>
         </div>
 
-        <div className="mt-4 w-full flex space-x-6 items-center justify-center">
+        <div className="mt-4 w-full flex space-x-4 items-center justify-center">
           {mediaLinks.map((link) => (
             <MediaLink key={link.href} {...link} />
           ))}
